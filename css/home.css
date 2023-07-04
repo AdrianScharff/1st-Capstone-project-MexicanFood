@@ -3,65 +3,37 @@ body {
   margin: 0;
 }
 
-/* Mobile version Header section */
+/* Mobile version Header Section */
 
-#blackHeader {
+header {
   display: none;
 }
 
-header {
-  height: 7.5vh;
+/* Mobile version Main Section */
+.main {
   display: flex;
-  background-color: #FFFFFF;
-  box-shadow: 0 0 1rem 0 black;
+  flex-direction: column;
+  background-color: #f1f1f1a8;
 }
 
-#headerMobile {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+#mobileTopContainer {
+  position: relative;
 }
 
-#hamburgerMenu {
+.hamburgerMenu {
+  position: absolute;
   width: 2.3rem;
   height: 2.3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-left: 6%;
+  margin: 4% 0 0 6%;
 }
 
 .bar {
   background-color: #272a31d2;
   width: 100%;
   height: 17%;
-}
-
-#logo {
-  height: 100%;
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 25% 0 0;
-}
-
-#logo img {
-  height: 90%;
-  padding-top: 5%;
-  padding-bottom: 0.6rem;
-}
-
-#menuOptions {
-  display: none;
-}
-
-/* Mobile version main section */
-.main {
-  display: flex;
-  flex-direction: column;
-  background-color: #f1f1f1a8;
 }
 
 #firstMain {
@@ -92,11 +64,11 @@ header {
   line-height: 2.1rem;
   background-image: url('/images/MexicanMapBlack.png');
   background-position: left;
-  background-size: cover;
+  background-size: contain;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: #ec5342d3;
-  text-fill-color: transparent;
+  text-fill-color: #ec5342d3;
 }
 
 #description {
@@ -163,4 +135,129 @@ header {
 .guacamole {
   top: -4.5rem;
   left: 75%;
+}
+
+/* Mobile Program Details Section */
+
+#programDetails {
+  background-image: url('/images/darkakaka.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleAndUnderlineContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  margin-bottom: 0.7rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.underline {
+  background-color: #EC5242;
+  height: 0.07rem;
+  width: 2rem;
+}
+
+#programListContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  justify-items: center;
+  grid-gap: 0.2rem;
+  margin: 2rem 0;
+}
+
+#programListContainer h3 {
+  color: #EC5242;
+}
+
+#programListContainer p {
+  color: white;
+}
+
+.programItems {
+  height: 5rem;
+  width: 94%;
+  background-color: #444444c7;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 1rem;
+}
+
+.programImages {
+  flex: 1;
+  height: 3.5rem;
+  max-width: 4rem;
+}
+
+.programNames {
+  flex: 1;
+  font-size: 1rem;
+}
+
+.programParagraphs {
+  flex: 3;
+  font-size: 0.8rem;
+}
+
+#joinButton {
+  margin-bottom: 2rem;
+  height: 4.2rem;
+  width: 19rem;
+  background-color: #EC5242;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#seeTheWhole {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+/* Desktop Version */
+
+@media (min-width: 768px) {
+  header {
+    height: 7.5vh;
+    display: flex;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 1rem 0 black;
+  }
+
+  #headerMobile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #logo {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 25% 0 0;
+  }
+
+  #logo img {
+    height: 90%;
+    padding-top: 5%;
+    padding-bottom: 0.6rem;
+  }
 }

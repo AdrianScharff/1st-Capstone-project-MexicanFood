@@ -18,12 +18,7 @@
             <div>My Page</div>
             <div>Logout</div>
         </div>
-        <div id="headerMobile">
-            <nav id="hamburgerMenu">
-                <span class="bar bar1"></span>
-                <span class="bar bar2"></span>
-                <span class="bar bar3"></span>
-            </nav>
+        <div id="headerMobile">            
             <div id="logo"><img src="./images/mxFoodLogo.png" alt="logo"></div>
             <div id="menuOptions">
                 <div>About</div>
@@ -36,8 +31,16 @@
         </div>
     </header>
     <main>
+        
         <section class="main">
-            <div id="firstMain"></div>
+            <div id="mobileTopContainer">
+                <nav class="hamburgerMenu">
+                    <span class="bar bar1"></span>
+                    <span class="bar bar2"></span>
+                    <span class="bar bar3"></span>
+                </nav>
+                <div id="firstMain"></div>
+            </div>
             <div id="textMain">
             <div id="helloAndEventContainer">
                 <div id="hello">"Hello! Food Lovers"</div>
@@ -58,40 +61,40 @@
             </div>
             </div>
         </section>
-        <section>
-            <div>
-                <h2>Main program</h2>
-                <span></span>
+        <section id="programDetails">
+            <div class="titleAndUnderlineContainer">
+                <h2 class="title">Main Program</h2>
+                <span class="underline"></span>
             </div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+            <div id="programListContainer">
+                <div class="programItems">
+                    <img class="programImages" src="./images/1programMusic.png" alt="">
+                    <h3 class="programNames">Music</h3>
+                    <p class="programParagraphs">Listen to the speakers from various countries about the messages of sharing and opening.</p>
                 </div>
-                <div>
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+                <div class="programItems">
+                    <img class="programImages" src="./images/2programComedy.png" alt="">
+                    <h3 class="programNames">Comedy Show</h3>
+                    <p class="programParagraphs">Appreciate various creations applying CC license of artists, organized from Art Center Nabi.</p>
                 </div>
-                <div>
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+                <div class="programItems">
+                    <img class="programImages" src="./images/3programLecture.png" alt="">
+                    <h3 class="programNames">Talks</h3>
+                    <p class="programParagraphs">Have the time to share your thoughts and opinions with experts for each topic.</p>
                 </div>
-                <div>
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+                <div class="programItems">
+                    <img class="programImages" src="./images/4programPhoto.png" alt="">
+                    <h3 class="programNames">Photos</h3>
+                    <p class="programParagraphs">Try creating your own work using open source license rather than just watching at it.</p>
                 </div>
-                <div>
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+                <div class="programItems">
+                    <img class="programImages" src="./images/5programTaco.png" alt="">
+                    <h3 class="programNames">Eating</h3>
+                    <p class="programParagraphs">get opportunities to network with CC affiliates around the world, also after the summit.</p>
                 </div>
             </div>
-            <a href="www.google.com"><button>Join CC Global Summit 2015</button></a>
-            <a href="www.google.com">SEE THE WHOLE PROGRAM</a>
+            <a href="https://www.google.com" id="joinLink"><button id="joinButton">Join CC Global Summit 2015</button></a>
+            <a href="https://www.google.com" id="seeTheWhole">SEE THE WHOLE PROGRAM</a>
         </section>
         <section class="FeaturedSpeakers">
             <div>

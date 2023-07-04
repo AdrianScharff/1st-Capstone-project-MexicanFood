@@ -1,3 +1,328 @@
 body {
   font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+/* Mobile Header Section */
+header {
+  display: none;
+}
+
+/* Mobile Main Section */
+
+.mainAbout {
+  background-color: #f1f1f1a8;
+  position: relative;
+}
+
+#mainAboutTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hamburgerMenu {
+  width: 2.3rem;
+  height: 2.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 4% 0 0 6%;
+}
+
+.bar {
+  background-color: #272a31d2;
+  width: 100%;
+  height: 17%;
+}
+
+.iconsMainAbout {
+  height: 2rem;
+  position: absolute;
+  filter: grayscale(100%);
+  opacity: 0.28;
+}
+
+.burrito {
+  left: 17%;
+  bottom: 80%;
+  height: 4rem;
+}
+
+.trumpet {
+  left: 80%;
+  height: 3rem;
+}
+
+.taco {
+  left: 10%;
+  bottom: 53%;
+  z-index: -1;
+}
+
+.maracas {
+  left: 50%;
+  bottom: 47%;
+  z-index: -1;
+  height: 2.5rem;
+}
+
+.mexa {
+  left: 80%;
+  height: 4.5rem;
+  bottom: 45%;
+  z-index: -1;
+}
+
+#helloAndEventContainerAbout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#hello {
+  color: #ec5242;
+  font-size: 1.35rem;
+}
+
+#event {
+  color: #ec5242;
+  font-size: 1.9rem;
+  font-weight: 900;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.underEvent {
+  display: none;
+}
+
+#mainParagraphMobile {
+  width: 83%;
+  background-color: white;
+  font-size: 0.78rem;
+  color: #272A31;
+  text-align: center;
+  border: 1px solid rgba(128, 128, 128, 0.26);
+  padding: 1rem 0.7rem;
+  line-height: 1.3rem;
+}
+
+#mainParagraphDesk {
+  display: none;
+}
+
+#pleaseAndPageInviteContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #272A31;
+}
+
+#please {
+  text-align: center;
+  font-size: 0.65rem;
+  margin-bottom: 0.3rem;
+  width: 70%;
+  line-height: 1rem;
+}
+
+#pageInvite {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding-bottom: 1.5rem;
+  text-decoration: underline;
+}
+
+/* Mobile Logo Presentation Section */
+
+.logoPresentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #272A31;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.192);
+}
+
+#logoPresentationTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logoTitle {
+  text-align: center;
+  width: 60%;
+}
+
+.underLogoTitle {
+  display: block;
+  background-color: #EC5242;
+  height: 0.07rem;
+  width: 1.3rem;
+}
+
+#logoParagraphMobile {
+  text-align: center;
+  width: 70%;
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+
+#logoParagraphDesk {
+  display: none;
+}
+
+#logoImageContainer {
+  border: 1px solid rgba(128, 128, 128, 0.192);
+  margin: 1.6rem 0 2.6rem 0;
+}
+
+#logoImage {
+  width: 13rem;
+  padding: 1rem 4rem;
+}
+
+/* Mobile Past Conventions Section */
+
+#pastConventions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pastConventionsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+#pastConventionsTitle {
+  margin-bottom: 0.8rem;
+  padding-bottom: 0;
+}
+
+.underPastConventionsTitle {
+  display: block;
+  background-color: #EC5242;
+  height: 0.07rem;
+  width: 1.3rem;
+}
+
+#pastConventionsParagraph {
+  margin-top: 0.8rem;
+  font-size: 0.7rem;
+  line-height: 1rem;
+  text-align: center;
+  margin-bottom: 2.1rem;
+}
+
+/* ------------------------------ */
+
+.imageConventionContainer {
+  position: relative;
+  background-color: #c02c1b;
+  width: 20rem;
+  height: 11.7rem;
+  margin-bottom: 1rem;
+}
+
+.imageConvention {
+  width: 20rem;
+  height: 11.7rem;
+  filter: grayscale(100%);
+  opacity: 0.3;
+}
+
+.imageYearAndEvent {
+  position: absolute;
+  color: white;
+  text-align: center;
+  top: 17%;
+  bottom: 17%;
+  left: 10%;
+  right: 10%;
+  z-index: 10;
+}
+
+.yearPast {
+  font-size: 1.9rem;
+  font-weight: 900;
+  margin-bottom: 0.6rem;
+}
+
+.eventPast {
+  margin-top: 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* Mobile Footer 1 Section */
+
+#footerOne {
+  background-color: #272a31f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-bottom: 2rem; */
+  padding-bottom: 2rem;
+}
+
+#footerOneTitle {
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.underFooterTitle {
+  display: block;
+  background-color: #EC5242;
+  height: 0.07rem;
+  width: 2.5rem;
+}
+
+#partnersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  width: 90%;
+  margin-top: 1.5rem;
+}
+
+.partners {
+  height: 3rem;
+  opacity: 0.6;
+}
+
+/* Mobile Footer 2 Section */
+
+#footerTwoItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.3rem;
+  margin: 1.5rem 4.5rem;
+}
+
+.footerLogo {
+  height: 1.7rem;
+  filter: grayscale(100%);
+}
+
+#footerTwoParagraph {
+  margin: 0;
+  padding: 0;
+  font-size: 0.5rem;
+}
+
+#chineseParagraphDesk {
+  display: none;
 }

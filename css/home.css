@@ -14,6 +14,7 @@ header {
   display: flex;
   flex-direction: column;
   background-color: #f1f1f1a8;
+  position: relative;
 }
 
 #mobileTopContainer {
@@ -67,15 +68,14 @@ header {
   background-size: contain;
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: #ec5342d3;
-  text-fill-color: #ec5342d3;
+  -webkit-text-fill-color: #eb1700d3;
+  text-fill-color: #eb1700d3;
 }
 
 #description {
   border: solid 0.3rem white;
   background-color: #f1f1f1;
   position: relative;
-  margin-top: 3rem;
   margin: 3rem -0.5rem 0 -0.5rem;
 }
 
@@ -100,12 +100,7 @@ header {
   color: #272a31d2;
 }
 
-.adornContainer {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 1rem;
-  position: relative;
-}
+/* ------ Adorns ------- */
 
 .adornIcon {
   height: 3rem;
@@ -114,26 +109,28 @@ header {
   position: absolute;
 }
 
+.taco {
+  height: 2.5rem;
+  transform: rotate(60deg);
+  left: 10%;
+  top: 45%;
+}
+
 .hat {
   transform: rotate(-30deg);
   height: 5rem;
   z-index: 0;
   left: 75%;
-  top: -1rem;
-}
-
-.taco {
-  height: 2.5rem;
-  transform: rotate(60deg);
-  top: 1rem;
+  top: 35%;
 }
 
 .pinata {
-  top: -3.5rem;
+  left: 13%;
+  top: 88%;
 }
 
 .guacamole {
-  top: -4.5rem;
+  top: 83%;
   left: 75%;
 }
 
@@ -225,39 +222,242 @@ header {
   display: none;
 }
 
+/* Mobile Footer Section */
+
 footer {
   display: none;
 }
 
-/* Desktop Version */
+/* DESKTOP VERSION */
 
 @media (min-width: 768px) {
-  header {
-    height: 7.5vh;
+  /* Desktop Headers Section */
+
+  #blackHeader {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2%;
+    background-color: #272a31;
+    color: white;
+    font-size: 0.5rem;
+    padding: 0.3rem 7rem;
+  }
+
+  #blackHeader a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .blackIconsContainer {
+    display: flex;
+    gap: 0.7rem;
+  }
+
+  .blackHeaderIcon {
+    height: 0.75rem;
+  }
+
+  /* ------------ */
+
+  header {
+    display: block;
     background-color: #FFFFFF;
     box-shadow: 0 0 1rem 0 black;
   }
 
-  #headerMobile {
-    width: 100%;
+  #whiteHeader {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    height: 5vh;
+    gap: 12%;
   }
 
-  #logo {
-    height: 100%;
-    width: 50%;
+  #logoHeader {
+    height: 75%;
+  }
+
+  #menuOptions {
     display: flex;
+    font-size: 0.6rem;
     justify-content: center;
     align-items: center;
-    margin: 0 25% 0 0;
+    gap: 10%;
+    width: 51%;
+    white-space: nowrap;
   }
 
-  #logo img {
-    height: 90%;
-    padding-top: 5%;
-    padding-bottom: 0.6rem;
+  .hamburgerMenu {
+    display: none;
+  }
+
+  /* Desktop Main Section */
+
+  .main {
+    height: 55vh;
+  }
+
+  #textMain {
+    width: 60%;
+    max-width: 40rem;
+    position: absolute;
+    top: 20%;
+    bottom: 15%;
+    left: 15%;
+  }
+
+  #hello {
+    font-size: 1.7rem;
+  }
+
+  #event {
+    margin-top: 0.5rem;
+    font-size: 2.5rem;
+    line-height: 2.6rem;
+    -webkit-text-fill-color: #eb1700d3;
+    text-fill-color: #eb1700d3;
+  }
+
+  #description {
+    margin-top: 1rem;
+    width: 75%;
+  }
+
+  #description p {
+    font-size: 0.5em;
+    padding: 0.4rem 1rem;
+  }
+
+  #dateAndPlaceContainer {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+
+  #date {
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Desktop Program Section */
+
+  #programListContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 80%;
+    justify-items: center;
+    grid-gap: 0.2rem;
+    margin: 2rem 0;
+  }
+
+  .title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+  }
+
+  .programItems {
+    height: auto;
+    width: 100%;
+    background-color: #444444c7;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  .programImages {
+    margin-top: 1rem;
+  }
+
+  .programNames {
+    padding: 0;
+    margin: 0;
+  }
+
+  .programParagraphs {
+    flex: 3;
+    font-size: 0.5rem;
+    text-align: center;
+    width: 90%;
+  }
+
+  #seeTheWhole {
+    display: block;
+    color: white;
+    padding-top: 1rem;
+    font-size: 0.7rem;
+    padding-bottom: 4rem;
+  }
+
+  #joinButton {
+    display: none;
+  }
+
+  /* Desktop Footer 1 section */
+  footer {
+    display: block;
+  }
+
+  #footerOne {
+    background-color: #272a31f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  #footerOneTitle {
+    margin-top: 1rem;
+    margin-bottom: 0.7rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  .underFooterTitle {
+    display: block;
+    background-color: #EC5242;
+    height: 0.07rem;
+    width: 2.5rem;
+  }
+
+  #partnersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 90%;
+    margin-top: 1.5rem;
+  }
+
+  .partners {
+    height: 3rem;
+    opacity: 0.6;
+  }
+
+  /* Desktop Footer 2 Section */
+
+  #footerTwoItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.3rem;
+    margin: 3.3rem 4.5rem;
+  }
+
+  .footerLogo {
+    height: 1.7rem;
+    filter: grayscale(100%);
+  }
+
+  #footerTwoParagraph {
+    margin: 0;
+    padding: 0;
+    font-size: 0.5rem;
+    width: 25rem;
   }
 }

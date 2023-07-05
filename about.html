@@ -11,17 +11,18 @@
 </head>
 <body>
     <header>
-        <div>
-            <img src="" alt="">
-            <img src="" alt="">
-            <div>English</div>
-            <div>My Page</div>
-            <div>Logout</div>
+        <div id="blackHeader">
+            <div class="blackIconsContainer">
+                <a href=""><img class="blackHeaderIcon" src="./images/facebookIcon.png" alt=""></a>
+                <a href=""><img class="blackHeaderIcon" src="./images/twitterIcon.png" alt=""></a>
+            </div>
+            <a href=""><div class="blackHeaderOption">English</div></a>
+            <a href=""><div class="blackHeaderOption">My Page</div></a>
+            <a href=""><div class="blackHeaderOption">Logout</div></a>
         </div>
-        <div>
-            
-            <img src="" alt="logo">
-            <div>
+        <div id="whiteHeader">            
+            <img id="logoHeader" src="./images/logoOrangeMx-removebg-preview.png" alt="logo">
+            <div id="menuOptions">
                 <div>About</div>
                 <div>Program</div>
                 <div>Join</div>
@@ -31,6 +32,7 @@
             </div>
         </div>
     </header>
+                                <!-- Main Section -->
     <section class="mainAbout">
         <nav class="hamburgerMenu">
             <span class="bar bar1"></span>
@@ -53,8 +55,8 @@
             <p id="mainParagraphMobile">The Global Summit brings together the community of  
             experts, academics, and activists who comprise the Creative Commons affiliate network in a different country every two years.
             This year, we hope to expand our invitation list including organizations and individuals.</p>
-            <p id="mainParagraphDesk">The Global Summit brings together the community of experts, academics, and activists who comprise the     CreativeCommons affiliate network in a different country every two years.
-            This year, we hope to expand our invitation list including organizations and individuals who want to work with us on shared projects     thatadvance the cause of the Commons, free culture and open knowledge.
+            <p id="mainParagraphDesk">The Global Summit brings together the community of experts, academics, and activists who comprise the     CreativeCommons affiliate network in a different country every two years. <br>
+            This year, we hope to expand our invitation list including organizations and individuals who want to work with us on shared projects     thatadvance the cause of the Commons, free culture and open knowledge. <br>
             So if you're active and engaged in the worlds of open content and knowledge - free software advocates, wikipedians, Opeknowledge,galleries,     libraries, museums, archives, governments and foundations, lawyers, and activists - we hope you'll considejoining us this yearto build a     stronger, more vibrant commons together</p>
             <div id="pleaseAndPageInviteContainer">
                 <p id="please">Please contact us per Email for nay further questions about CC Global Summit 2015!</p>
@@ -62,7 +64,7 @@
             </div>
         </div>
     </section>
-
+                                <!-- Logo Presentation Section -->
     <section class="logoPresentation">
             <div id="logoPresentationTextContainer">
                 <h3 id="logoTitle">Creative Commons 
@@ -77,28 +79,31 @@
                 <img id="logoImage" src="./images/logoOrangeMx-removebg-preview.png" alt="">
             </div>
     </section>
-
+                                <!-- Past Conventions Section -->
     <section id="pastConventions">
         <div id="pastConventionsContainer">
             <h3 id="pastConventionsTitle">See the past CC Global Summits</h3>
             <span class="underline underPastConventionsTitle"></span>
             <p id="pastConventionsParagraph">Take a look at the past two CC Global Summits which took place in Buenos Aires and in Warsaw</p>
-            <div class="imageConventionContainer">
-                <img class="imageConvention" src="./images/convention1.png" alt="">
-                <div class="imageYearAndEvent">
-                    <h3 class="yearPast">2021</h3>
-                    <p class="eventPast">CC Global Summit 2013 in Buenos Aires</p>
+            <div id="orangeRectanglesContainer">
+                <div class="imageConventionContainer">
+                    <img class="imageConvention" src="./images/convention1.png" alt="">
+                    <div class="imageYearAndEvent">
+                        <h3 class="yearPast">2021</h3>
+                        <p class="eventPast">CC Global Summit 2013 in Buenos Aires</p>
+                    </div>
                 </div>
-            </div>
-            <div class="imageConventionContainer">
-                <img class="imageConvention" src="./images/convention2.jpg" alt="">
-                <div class="imageYearAndEvent">
-                    <h3 class="yearPast">2022</h3>
-                    <p class="eventPast">CC Global Summit 2011 in Warsaw</p>
+                <div class="imageConventionContainer">
+                    <img class="imageConvention" src="./images/convention2.jpg" alt="">
+                    <div class="imageYearAndEvent">
+                        <h3 class="yearPast">2022</h3>
+                        <p class="eventPast">CC Global Summit 2011 in Warsaw</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+                            <!-- Footer 1 -->
     <footer id="footerOne">
         <div id="footerOneTitle">Partner</div>
         <span class="underline underFooterTitle"></span>
@@ -110,12 +115,15 @@
             <img class="partners" src="./images/newFooterIcons/5mexicanaRight-removebg-preview.png" alt="">
         </div>
     </footer>
+                            <!-- Footer 2 -->
     <footer id="footerTwo">
         <div id="footerTwoItems">
             <img class="footerLogo" src="./images/footerMexicanIcons/footerLogo.png" alt="">
-            <p id="footerTwoParagraph">2015 Creative Commons Korea. Some Rights Reserved.</p>
-            <p id="chineseParagraphDesk">달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.
-                자세한 이용기능 내용과 허락조건은 http://creativecommons.org/licences/by/2.0/kr 를 보세요.</p>
+            <div id="footerTwoParagraphsContainer">
+                <p id="footerTwoParagraph">2015 Creative Commons Korea. Some Rights Reserved.</p>
+                <p id="chineseParagraphDesk">달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.
+                    자세한 이용기능 내용과 허락조건은 http://creativecommons.org/licences/by/2.0/kr 를 보세요.</p>
+            </div>
         </div>
     </footer>
     <script src="JavaScript/about.js"></script>

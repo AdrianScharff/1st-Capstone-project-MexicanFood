@@ -269,7 +269,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-bottom: 2rem; */
   padding-bottom: 2rem;
 }
 
@@ -325,4 +324,263 @@ header {
 
 #chineseParagraphDesk {
   display: none;
+}
+
+/* ABOUT DESKTOP VERSION */
+
+@media (min-width: 768px) {
+  /* Desktop Headers Section */
+
+  #blackHeader {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2%;
+    background-color: #272a31;
+    color: white;
+    font-size: 0.5rem;
+    padding: 0.3rem 7rem;
+  }
+
+  #blackHeader a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .blackIconsContainer {
+    display: flex;
+    gap: 0.7rem;
+  }
+
+  .blackHeaderIcon {
+    height: 0.75rem;
+  }
+
+  /* ------------ */
+
+  header {
+    display: block;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 1rem 0 black;
+  }
+
+  #whiteHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    gap: 12%;
+  }
+
+  #logoHeader {
+    height: 75%;
+  }
+
+  #menuOptions {
+    display: flex;
+    font-size: 0.6rem;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    width: 51%;
+    white-space: nowrap;
+  }
+
+  .hamburgerMenu {
+    display: none;
+  }
+
+  /* Desktop Main Section */
+
+  .burrito {
+    left: 17%;
+    bottom: 70%;
+    height: 4rem;
+  }
+
+  .trumpet {
+    left: 75%;
+    top: 30%;
+    height: 3rem;
+  }
+
+  .taco {
+    left: 10%;
+    bottom: 53%;
+    z-index: -1;
+  }
+
+  .maracas {
+    left: 15%;
+    bottom: 15%;
+  }
+
+  .mexa {
+    left: 84%;
+    height: 4.5rem;
+    bottom: 30%;
+    z-index: -1;
+  }
+
+  #helloAndEventContainerAbout {
+    margin-bottom: 0.8rem;
+    margin-top: 4rem;
+  }
+
+  #hello {
+    display: none;
+  }
+
+  #event {
+    width: 60%;
+    margin-bottom: 1rem;
+  }
+
+  .underEvent {
+    display: block;
+    background-color: #EC5242;
+    height: 0.07rem;
+    width: 1.3rem;
+  }
+
+  #mainParagraphMobile {
+    display: none;
+  }
+
+  #mainParagraphDesk {
+    display: block;
+    width: 60%;
+    background-color: white;
+    font-size: 0.48rem;
+    color: #272A31;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.26);
+    padding: 1rem 2.5rem;
+    line-height: 0.9rem;
+    margin-bottom: 1.2rem;
+  }
+
+  #pleaseAndPageInviteContainer {
+    margin-bottom: 2.5rem;
+  }
+
+  #please {
+    width: 100%;
+  }
+
+  /* Desktop Logo Presentation Section */
+  
+  #logoTitle {
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 0.6rem;
+    font-size: 1.1rem;
+  }
+
+  #logoParagraphMobile {
+    display: none;
+  }
+
+  #logoParagraphDesk {
+    display: block;
+    text-align: center;
+    width: 55%;
+    font-size: 0.5rem;
+    line-height: 0.9rem;
+  }
+
+  #logoImageContainer {
+    border: 1px solid rgba(128, 128, 128, 0.192);
+    margin: 1.4rem 0 2.3rem 0;
+  }
+
+  #logoImage {
+    width: 8.5rem;
+    padding: 1rem 5rem;
+  }
+
+  /* Desktop Past Events Section */
+  #orangeRectanglesContainer {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .imageConventionContainer {
+    position: relative;
+    background-color: #c02c1b;
+    width: 15rem;
+    height: 8.7rem;
+    margin-top: 0.7rem;
+    margin-bottom: 3rem;
+  }
+
+  .imageConvention {
+    width: 15rem;
+    height: 8.7rem;
+    filter: grayscale(100%);
+    opacity: 0.3;
+  }
+
+  .imageYearAndEvent {
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 16%;
+    bottom: 17%;
+    left: 10%;
+    right: 10%;
+    z-index: 10;
+  }
+
+  .yearPast {
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin-bottom: 0.3rem;
+  }
+
+  .eventPast {
+    margin-top: 0;
+    font-size: 0.6rem;
+    font-weight: 700;
+  }
+
+  /* Desktop Footer 1 Section */
+  #footerOne {
+    display: none;
+  }
+
+  /* Desktop Footer 2 Section */
+
+  #footerTwo {
+    background-color: rgba(0, 0, 0, 0.836);
+    display: flex;
+    justify-content: center;
+  }
+
+  #footerTwoItems {
+    gap: 1.5rem;
+    width: 70%;
+    padding: 1.3rem 0;
+  }
+
+  .footerLogo {
+    height: 1.9rem;
+    filter: grayscale(100%) brightness(10000%);
+  }
+
+  #footerTwoParagraphsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footerTwoParagraph {
+    font-size: 0.5rem;
+    color: white;
+  }
+
+  #chineseParagraphDesk {
+    display: block;
+    font-size: 0.5rem;
+    color: white;
+  }
 }

@@ -21,14 +21,15 @@
             <a href=""><div class="blackHeaderOption">Logout</div></a>
         </div>
         <div id="whiteHeader">            
-            <img id="logoHeader" src="./images/logoOrangeMx-removebg-preview.png" alt="logo">
+            <a href="./home.html"><img id="logoHeader" src="./images/logoOrangeMx-removebg-preview.png" alt="logo"></a>
             <div id="menuOptions">
-                <div>About</div>
-                <div>Program</div>
-                <div>Join</div>
-                <div>Sponsor</div>
-                <div>News</div>
-                <div>CC Campaign</div>
+                <a class="menuOptionsLinks" href="./about.html"><div>About</div></a>
+                <a class="menuOptionsLinks" href="./home.html"><div>Event</div></a>
+                <a class="menuOptionsLinks" href="#programDetails"><div>Join</div></a>
+                <a class="menuOptionsLinks sponsorMobile" href="./about.html#footerOne"><div>Sponsor</div></a>
+                <a class="menuOptionsLinks sponsorDesk" href="#footerOne"><div>Sponsor</div></a>
+                <a class="menuOptionsLinks" href="#"><div>News</div></a>
+                <a class="menuOptionsLinks" href="#"><div>CC Campaign</div></a>
             </div>
         </div>
     </header>
@@ -58,7 +59,7 @@
                     <p id="descriptionParagraph">A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries     is taking place in October, in Korea.</p>
                 </div>
                 <div id="dateAndPlaceContainer">
-                    <div id="date">2015.10.15(THU) ~ 16(FRI)</div>
+                    <div id="date">2023.10.15(THU) ~ 16(FRI)</div>
                     <div id="place">@ National Museum of Karea, Art Center Nabi and more</div>
                 </div>
             </div>
@@ -99,94 +100,26 @@
             <a href="https://www.google.com" id="joinLink"><button id="joinButton">Join CC Global Summit 2015</button></a>
             <a href="https://www.google.com" id="seeTheWhole">SEE THE WHOLE PROGRAM</a>
         </section>
-                                <!-- Featured Speakers Section -->
-        <section class="FeaturedSpeakers">
-            <div>
-                <h3>Featured Speakers</h3>
-                <span></span>
+                                <!-- Event Guests Section -->
+        <section class="eventGuests">
+            <div id="guestsTitleContainer">
+                <h3>Event Guests</h3>
+                <span class="underline"></span>
             </div>
-            <div>
-                <div>
-                    <div>
-                        <img src="" alt="">                        
-                        <img src="" alt="">
-                    </div>                    
-                    <div>
-                        <h3></h3>
-                        <p></p>
-                        <span></span>
-                        <p></p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="" alt="">                        
-                        <img src="" alt="">
-                    </div>                    
-                    <div>
-                        <h3></h3>
-                        <p></p>
-                        <span></span>
-                        <p></p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="" alt="">                        
-                        <img src="" alt="">
-                    </div>                    
-                    <div>
-                        <h3></h3>
-                        <p></p>
-                        <span></span>
-                        <p></p>
-                    </div>
-                </div>
+            <div class="allGuestsContainer">
+
+
             </div>
-            <div>
-                <div>
-                    <div>
-                        <img src="" alt="">                        
-                        <img src="" alt="">
-                    </div>                    
-                    <div>
-                        <h3></h3>
-                        <p></p>
-                        <span></span>
-                        <p></p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="" alt="">                        
-                        <img src="" alt="">
-                    </div>                    
-                    <div>
-                        <h3></h3>
-                        <p></p>
-                        <span></span>
-                        <p></p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="" alt="">                        
-                        <img src="" alt="">
-                    </div>                    
-                    <div>
-                        <h3></h3>
-                        <p></p>
-                        <span></span>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div>MORE</div>
-                <img src="" alt="">
-            </div>
+            <button id="moreButton">
+                <div class="more">MORE</div>
+                <img class="downArrow" src="./images/arrow_down1.png" alt="">
+            </button>
+            <button id="lessButton">
+                <div class="less">LESS</div>
+                <img class="upArrow" src="./images/arrow_down1.png" alt="">
+            </button>
         </section>
-        <!-- Footer 1 -->
+                                <!-- Footer 1 -->
         <footer id="footerOne">
             <div id="footerOneTitle">Partner</div>
             <span class="underline underFooterTitle"></span>
@@ -198,7 +131,7 @@
                 <img class="partners" src="./images/newFooterIcons/5mexicanaRight-removebg-preview.png" alt="">
             </div>
         </footer>
-        <!-- Footer 2 -->
+                                <!-- Footer 2 -->
         <footer id="footerTwo">
             <div id="footerTwoItems">
                 <img class="footerLogo" src="./images/footerMexicanIcons/footerLogo.png" alt="">

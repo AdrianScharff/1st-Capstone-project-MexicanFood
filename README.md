@@ -50,7 +50,7 @@ OPTIONAL SECTIONS:
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Capstone Project - Mexican Food Event] <a name="about-project"></a>
+# 📖 Capstone Project - Mexican Food Event <a name="about-project"></a>
 
 > This is a project in which I put in practice all the skills and knowledge gained so far regarding html, css and JavaScript. This project is about a Mexican Food Event in which people can try the best mexican dishes. In this webpage I point all the details about this event in a way that users become attracted and interested on attending it.
 
@@ -159,11 +159,13 @@ If you like this project rate a star⭐
 
 I would like to thank my mentors and fellow students who helped me when I needed going through this project building.
 
+I also give thanks to Cindy Shin, the author of this pages's orginal design, for having great creativity and originality building this model
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ <a name="faq"></a>
 
 - **Is this project inviting people to a real event?**
 

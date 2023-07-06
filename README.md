@@ -53,6 +53,7 @@ OPTIONAL SECTIONS:
 # 📖 Capstone Project - Mexican Food Event <a name="about-project"></a>
 
 > This is a project in which I put in practice all the skills and knowledge gained so far regarding html, css and JavaScript. This project is about a Mexican Food Event in which people can try the best mexican dishes. In this webpage I point all the details about this event in a way that users become attracted and interested on attending it.
+You can find a 5 minute outline of this project in this [video](https://www.loom.com/share/853f6359f0714210b1b4c2fc314579e7?sid=61b1505b-bf95-4aea-91cb-7c8843d7fa070).
 
 <!-- Features -->
 ### Key Features <a name="key-features"></a>

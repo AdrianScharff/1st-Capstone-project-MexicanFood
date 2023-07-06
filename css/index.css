@@ -92,7 +92,7 @@ body {
 }
 
 #firstMain {
-  background-image: url("/images/mxmx2.png");
+  background-image: url("./images/mxmx2.png");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -108,7 +108,7 @@ body {
 
 #hello {
   font-size: 1.23rem;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 #event {
@@ -117,7 +117,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 2.1rem;
-  background-image: url('/images/MexicanMapBlack.png');
+  background-image: url('./images/MexicanMapBlack.png');
   background-position: left;
   background-size: contain;
   -webkit-background-clip: text;
@@ -191,7 +191,7 @@ body {
 /* Mobile Program Details Section */
 
 #programDetails {
-  background-image: url('/images/darkakaka.jpg');
+  background-image: url('./images/darkakaka.jpg');
   background-size: cover;
   display: flex;
   flex-direction: column;

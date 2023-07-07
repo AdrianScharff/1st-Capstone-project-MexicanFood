@@ -218,7 +218,7 @@ body {
 #programListContainer {
   display: grid;
   grid-template-columns: 1fr;
-  width: 100%;
+  width: 90%;
   justify-items: center;
   grid-gap: 0.2rem;
   margin: 2rem 0;
@@ -398,7 +398,7 @@ body {
 }
 
 .guestDescription {
-  font-size: 0.626rem;
+  font-size: 0.8rem;
   color: #df3623;
   margin-top: 0;
   margin-bottom: 0.3rem;
@@ -411,7 +411,7 @@ body {
 }
 
 .guestCredentials {
-  font-size: 0.53rem;
+  font-size: 0.75rem;
   margin: 0;
 }
 
@@ -437,7 +437,7 @@ footer {
     gap: 2%;
     background-color: #272a31;
     color: white;
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     padding: 0.3rem 7rem;
   }
 
@@ -467,12 +467,13 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 5vh;
-    gap: 12%;
+    height: 6vh;
+    gap: 16%;
   }
 
   #logoHeader {
     display: block;
+    margin-left: -1.5rem;
   }
 
   a #logoHeader {
@@ -481,10 +482,9 @@ footer {
 
   #menuOptions {
     display: flex;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     justify-content: center;
     align-items: center;
-    gap: 10%;
     width: 51%;
     white-space: nowrap;
   }
@@ -506,7 +506,7 @@ footer {
     padding-top: 0;
     background-color: white;
     backdrop-filter: none;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     height: auto;
     width: 51%;
     z-index: 0;
@@ -520,6 +520,13 @@ footer {
   .menuOptionsLinks {
     color: #272a31;
     text-decoration: none;
+    margin-left: 7%;
+  }
+
+  .ccCampaign {
+    border: 0.2rem solid #ff4834;
+    padding: 0.35rem 0.6rem 0.45rem 0.6rem;
+    color: #df3623;
   }
 
   .hamburgerMenu {
@@ -538,7 +545,7 @@ footer {
     position: absolute;
     top: 20%;
     bottom: 15%;
-    left: 15%;
+    left: 9%;
   }
 
   #hello {
@@ -558,7 +565,7 @@ footer {
   }
 
   #description p {
-    font-size: 0.5em;
+    font-size: 0.75em;
     padding: 0.4rem 1rem;
   }
 
@@ -613,7 +620,7 @@ footer {
 
   .programParagraphs {
     flex: 3;
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     text-align: center;
     width: 90%;
   }
@@ -622,7 +629,7 @@ footer {
     display: block;
     color: white;
     padding-top: 1rem;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     padding-bottom: 4rem;
   }
 
@@ -642,6 +649,19 @@ footer {
   /* Desktop Dynamic Event Guests Section */
   .allGuestsContainer {
     grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+  }
+
+  .guestName {
+    font-size: 0.85rem;
+  }
+
+  .guestDescription {
+    font-size: 0.8rem;
+  }
+
+  .guestCredentials {
+    font-size: 0.75rem;
   }
 
   .eachGuestContainer.hidden {
@@ -712,7 +732,7 @@ footer {
   #footerTwoParagraph {
     margin: 0;
     padding: 0;
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     width: 25rem;
   }
 }

@@ -393,7 +393,7 @@ body {
     background-color: #272a31;
     color: white;
     font-size: 0.75rem;
-    padding: 0.3rem 7rem;
+    padding: 0.3rem 12%;
   }
 
   #blackHeader a {
@@ -421,9 +421,12 @@ body {
   #whiteHeader {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     height: 6vh;
-    gap: 12%;
+  }
+
+  .logoLink {
+    margin-left: 15%;
   }
 
   #logoHeader {
@@ -436,12 +439,11 @@ body {
 
   #menuOptions {
     display: flex;
-    font-size: 0.78rem;
-    justify-content: center;
+    font-size: 0.8rem;
     align-items: center;
-    gap: 10%;
-    width: 51%;
+    width: 30rem;
     white-space: nowrap;
+    margin-right: 10%;
   }
 
   .sponsorMobile {
@@ -475,6 +477,7 @@ body {
   .menuOptionsLinks {
     color: #272a31;
     text-decoration: none;
+    margin-left: 7%;
   }
 
   .ccCampaign {

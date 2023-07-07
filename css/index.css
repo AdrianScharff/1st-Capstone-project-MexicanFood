@@ -438,7 +438,7 @@ footer {
     background-color: #272a31;
     color: white;
     font-size: 0.75rem;
-    padding: 0.3rem 7rem;
+    padding: 0.3rem 12%;
   }
 
   #blackHeader a {
@@ -465,15 +465,17 @@ footer {
 
   #whiteHeader {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
     height: 6vh;
-    gap: 16%;
+  }
+
+  .logoLink {
+    margin-left: 10%;
   }
 
   #logoHeader {
     display: block;
-    margin-left: -1.5rem;
   }
 
   a #logoHeader {
@@ -483,10 +485,10 @@ footer {
   #menuOptions {
     display: flex;
     font-size: 0.8rem;
-    justify-content: center;
     align-items: center;
-    width: 51%;
+    width: 30rem;
     white-space: nowrap;
+    margin-right: 10%;
   }
 
   .sponsorMobile {
@@ -497,7 +499,7 @@ footer {
     display: block;
   }
 
-  #menuOptions.active {
+  /* #menuOptions.active {
     display: flex;
     flex-direction: row;
     gap: 10%;
@@ -510,7 +512,7 @@ footer {
     height: auto;
     width: 51%;
     z-index: 0;
-  }
+  } */
 
   #menuOptions.active a {
     color: #272a31;

@@ -1,0 +1,688 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+/* Mobile Header Section */
+#blackHeader {
+  display: none;
+}
+
+#logoHeader {
+  display: none;
+}
+
+#menuOptions {
+  display: none;
+}
+
+.sponsorDesk {
+  display: none;
+}
+
+#menuOptions.active {
+  display: flex;
+  flex-direction: column;
+  gap: 6%;
+  position: fixed;
+  padding-left: 23%;
+  padding-top: 30%;
+  background-color: #272a31d0;
+  backdrop-filter: blur(0.5rem);
+  color: white;
+  font-size: 1.5rem;
+  height: 100vh;
+  width: 60vw;
+  z-index: 101;
+}
+
+#menuOptions.active a {
+  color: white;
+  text-decoration: none;
+}
+
+.hamburgerMenu.active {
+  position: fixed;
+  z-index: 1000;
+}
+
+.hamburgerMenu.active .bar1 {
+  transform: rotate(45deg) translate(0.3rem, 0.65rem);
+  background-color: #df3623;
+  height: 0.2rem;
+}
+
+.hamburgerMenu.active .bar2 {
+  opacity: 0;
+}
+
+.hamburgerMenu.active .bar3 {
+  transform: rotate(-45deg) translate(0.3rem, -0.66rem);
+  background-color: #df3623;
+  height: 0.2rem;
+}
+
+/* Mobile Main Section */
+
+.mainAbout {
+  background-color: #f1f1f1a8;
+  position: relative;
+}
+
+#mainAboutTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hamburgerMenu {
+  width: 2.3rem;
+  height: 2.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 4% 0 0 6%;
+}
+
+.bar {
+  background-color: #272a31d2;
+  width: 100%;
+  height: 17%;
+}
+
+.iconsMainAbout {
+  height: 2rem;
+  position: absolute;
+  filter: grayscale(100%);
+  opacity: 0.28;
+}
+
+.burrito {
+  left: 17%;
+  bottom: 80%;
+  height: 4rem;
+}
+
+.trumpet {
+  left: 80%;
+  height: 3rem;
+}
+
+.taco {
+  left: 10%;
+  bottom: 53%;
+  z-index: -1;
+}
+
+.maracas {
+  left: 50%;
+  bottom: 47%;
+  z-index: -1;
+  height: 2.5rem;
+}
+
+.mexa {
+  left: 80%;
+  height: 4.5rem;
+  bottom: 45%;
+  z-index: -1;
+}
+
+#helloAndEventContainerAbout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#hello {
+  color: #ec5242;
+  font-size: 1.35rem;
+}
+
+#event {
+  color: #ec5242;
+  font-size: 1.9rem;
+  font-weight: 900;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.underEvent {
+  display: none;
+}
+
+#mainParagraphMobile {
+  width: 83%;
+  background-color: white;
+  font-size: 0.78rem;
+  color: #272a31;
+  text-align: center;
+  border: 1px solid rgba(128, 128, 128, 0.26);
+  padding: 1rem 0.7rem;
+  line-height: 1.3rem;
+}
+
+#mainParagraphDesk {
+  display: none;
+}
+
+#pleaseAndPageInviteContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #272a31;
+}
+
+#please {
+  text-align: center;
+  font-size: 0.78rem;
+  margin-bottom: 0.3rem;
+  width: 70%;
+  line-height: 1rem;
+}
+
+#pageInvite {
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding-bottom: 1.5rem;
+  text-decoration: underline;
+}
+
+/* Mobile Logo Presentation Section */
+
+.logoPresentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #272a31;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.192);
+}
+
+#logoPresentationTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logoTitle {
+  text-align: center;
+  width: 60%;
+}
+
+.underLogoTitle {
+  display: block;
+  background-color: #ec5242;
+  height: 0.07rem;
+  width: 1.3rem;
+}
+
+#logoParagraphMobile {
+  text-align: center;
+  width: 70%;
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+#logoParagraphDesk {
+  display: none;
+}
+
+#logoImageContainer {
+  border: 1px solid rgba(128, 128, 128, 0.192);
+  margin: 1.6rem 0 2.6rem 0;
+}
+
+#logoImage {
+  width: 13rem;
+  padding: 1rem 4rem;
+}
+
+/* Mobile Past Conventions Section */
+
+#pastConventions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pastConventionsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+#pastConventionsTitle {
+  margin-bottom: 0.8rem;
+  padding-bottom: 0;
+}
+
+.underPastConventionsTitle {
+  display: block;
+  background-color: #ec5242;
+  height: 0.07rem;
+  width: 1.3rem;
+}
+
+#pastConventionsParagraph {
+  margin-top: 0.8rem;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  text-align: center;
+  margin-bottom: 2.1rem;
+}
+
+/* ------------------------------ */
+
+.imageConventionContainer {
+  position: relative;
+  background-color: #c02c1b;
+  width: 20rem;
+  height: 11.7rem;
+  margin-bottom: 1rem;
+}
+
+.imageConvention {
+  width: 20rem;
+  height: 11.7rem;
+  filter: grayscale(100%);
+  opacity: 0.3;
+}
+
+.imageYearAndEvent {
+  position: absolute;
+  color: white;
+  text-align: center;
+  top: 17%;
+  bottom: 17%;
+  left: 10%;
+  right: 10%;
+  z-index: 10;
+}
+
+.yearPast {
+  font-size: 1.9rem;
+  font-weight: 900;
+  margin-bottom: 0.6rem;
+}
+
+.eventPast {
+  margin-top: 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* Mobile Footer 1 Section */
+
+#footerOne {
+  background-color: #272a31f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+#footerOneTitle {
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.underFooterTitle {
+  display: block;
+  background-color: #ec5242;
+  height: 0.07rem;
+  width: 2.5rem;
+}
+
+#partnersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  width: 90%;
+  margin-top: 1.5rem;
+}
+
+.partners {
+  height: 3rem;
+  opacity: 0.6;
+}
+
+/* Mobile Footer 2 Section */
+
+#footerTwoItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.3rem;
+  margin: 1.5rem 4.5rem;
+}
+
+.footerLogo {
+  height: 1.7rem;
+  filter: grayscale(100%);
+}
+
+#footerTwoParagraph {
+  margin: 0;
+  padding: 0;
+  font-size: 0.75rem;
+}
+
+#chineseParagraphDesk {
+  display: none;
+}
+
+/* ABOUT DESKTOP VERSION */
+
+@media (min-width: 768px) {
+  /* Desktop Headers Section */
+
+  #blackHeader {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2%;
+    background-color: #272a31;
+    color: white;
+    font-size: 0.75rem;
+    padding: 0.3rem 12%;
+  }
+
+  #blackHeader a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .blackIconsContainer {
+    display: flex;
+    gap: 0.7rem;
+  }
+
+  .blackHeaderIcon {
+    height: 0.75rem;
+  }
+
+  /* ------------ */
+
+  header {
+    display: block;
+    background-color: #fff;
+    box-shadow: 0 0 1rem 0 black;
+  }
+
+  #whiteHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vh;
+  }
+
+  .logoLink {
+    margin-left: 15%;
+  }
+
+  #logoHeader {
+    display: block;
+  }
+
+  a #logoHeader {
+    height: 2rem;
+  }
+
+  #menuOptions {
+    display: flex;
+    font-size: 0.8rem;
+    align-items: center;
+    width: 30rem;
+    white-space: nowrap;
+    margin-right: 10%;
+  }
+
+  .sponsorMobile {
+    display: none;
+  }
+
+  .sponsorDesk {
+    display: block;
+  }
+
+  #menuOptions.active {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    position: static;
+    padding-left: 0;
+    padding-top: 0;
+    background-color: white;
+    backdrop-filter: none;
+    font-size: 0.78rem;
+    height: auto;
+    width: 51%;
+    z-index: 0;
+  }
+
+  #menuOptions.active a {
+    color: #272a31;
+    text-decoration: none;
+  }
+
+  .menuOptionsLinks {
+    color: #272a31;
+    text-decoration: none;
+    margin-left: 7%;
+  }
+
+  .ccCampaign {
+    border: 0.2rem solid #ff4834;
+    padding: 0.35rem 0.6rem 0.45rem 0.6rem;
+    color: #df3623;
+  }
+
+  .hamburgerMenu {
+    display: none;
+  }
+
+  /* Desktop Main Section */
+
+  .burrito {
+    left: 17%;
+    bottom: 70%;
+    height: 4rem;
+  }
+
+  .trumpet {
+    left: 75%;
+    top: 30%;
+    height: 3rem;
+  }
+
+  .taco {
+    left: 10%;
+    bottom: 53%;
+    z-index: -1;
+  }
+
+  .maracas {
+    left: 15%;
+    bottom: 15%;
+  }
+
+  .mexa {
+    left: 84%;
+    height: 4.5rem;
+    bottom: 30%;
+    z-index: -1;
+  }
+
+  #helloAndEventContainerAbout {
+    margin-bottom: 0.8rem;
+    margin-top: 4rem;
+  }
+
+  #hello {
+    display: none;
+  }
+
+  #event {
+    width: 60%;
+    margin-bottom: 1rem;
+    color: #e63a27;
+    font-weight: 900;
+  }
+
+  .underEvent {
+    display: block;
+    background-color: #ec5242;
+    height: 0.07rem;
+    width: 1.3rem;
+  }
+
+  #mainParagraphMobile {
+    display: none;
+  }
+
+  #mainParagraphDesk {
+    display: block;
+    width: 60%;
+    background-color: white;
+    font-size: 0.75rem;
+    color: #272a31;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.26);
+    padding: 1rem 2.5rem;
+    line-height: 0.9rem;
+    margin-bottom: 1.2rem;
+  }
+
+  #pleaseAndPageInviteContainer {
+    margin-bottom: 2.5rem;
+  }
+
+  #please {
+    width: 100%;
+  }
+
+  /* Desktop Logo Presentation Section */
+
+  #logoTitle {
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 0.6rem;
+    font-size: 1.1rem;
+  }
+
+  #logoParagraphMobile {
+    display: none;
+  }
+
+  #logoParagraphDesk {
+    display: block;
+    text-align: center;
+    width: 55%;
+    font-size: 0.75rem;
+    line-height: 0.9rem;
+  }
+
+  #logoImageContainer {
+    border: 1px solid rgba(128, 128, 128, 0.192);
+    margin: 1.4rem 0 2.3rem 0;
+  }
+
+  #logoImage {
+    width: 8.5rem;
+    padding: 1rem 5rem;
+  }
+
+  /* Desktop Past Events Section */
+  #orangeRectanglesContainer {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .imageConventionContainer {
+    position: relative;
+    background-color: #c02c1b;
+    width: 15rem;
+    height: 8.7rem;
+    margin-top: 0.7rem;
+    margin-bottom: 3rem;
+  }
+
+  .imageConvention {
+    width: 15rem;
+    height: 8.7rem;
+    filter: grayscale(100%);
+    opacity: 0.3;
+  }
+
+  .imageYearAndEvent {
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 16%;
+    bottom: 17%;
+    left: 10%;
+    right: 10%;
+    z-index: 10;
+  }
+
+  .yearPast {
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin-bottom: 0.3rem;
+  }
+
+  .eventPast {
+    margin-top: 0;
+    font-size: 0.78rem;
+    font-weight: 700;
+  }
+
+  /* Desktop Footer 1 Section */
+  #footerOne {
+    display: none;
+  }
+
+  /* Desktop Footer 2 Section */
+
+  #footerTwo {
+    background-color: rgba(0, 0, 0, 0.836);
+    display: flex;
+    justify-content: center;
+  }
+
+  #footerTwoItems {
+    gap: 1.5rem;
+    width: 70%;
+    padding: 1.3rem 0;
+  }
+
+  .footerLogo {
+    height: 1.9rem;
+    filter: grayscale(100%) brightness(10000%);
+  }
+
+  #footerTwoParagraphsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footerTwoParagraph {
+    font-size: 0.75rem;
+    color: white;
+  }
+
+  #chineseParagraphDesk {
+    display: block;
+    font-size: 0.75rem;
+    color: white;
+  }
+}

@@ -1,12 +1,6 @@
 <a name="readme-top"></a>
 
 <!--
-!!! IMPORTANT !!!
-This README is an example of how you could professionally present your codebase. 
-Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored. 
-
-You should modify this file to match your project and remove sections that don't apply.
-
 REQUIRED SECTIONS:
 - Table of Contents
 - About the Project
@@ -22,18 +16,11 @@ REQUIRED SECTIONS:
 
 OPTIONAL SECTIONS:
 - FAQ
-
-After you're finished please remove all the comments and instructions!
-
-For more information on the importance of a professional README for your repositories: https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/readme_best_practices.md
 -->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Capstone Project README Template</b></h3>
 
 </div>
 
@@ -63,58 +50,25 @@ For more information on the importance of a professional README for your reposit
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Capstone Project - Mexican Food Event <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
-
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+> This is a project in which I put in practice all the skills and knowledge gained so far regarding html, css and JavaScript. This project is about a Mexican Food Event in which people can try the best mexican dishes. In this webpage I point all the details about this event in a way that users become attracted and interested on attending it.
+You can find a 5 minute outline of this project in this [video](https://www.loom.com/share/853f6359f0714210b1b4c2fc314579e7?sid=61b1505b-bf95-4aea-91cb-7c8843d7fa070).
 
 <!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
-
+- **It has MIT License**
+- **It has HTML files**
+- **It has CSS files**
+- **It has JavaScript files**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://adrianscharff.github.io/1st-Capstone-project-MexicanFood/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,84 +76,43 @@ For more information on the importance of a professional README for your reposit
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
+- A code editor of your choice (like VS code, atom or any other)
+- Version Control System (Git is preferred)
 
 ```sh
- gem install rails
+  npm install
 ```
- -->
+
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/AdrianScharff/1st-Capstone-project-MexicanFood.git
+  cd 1st-Capstone-project-MexicanFood
 ```
---->
+
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
 ```sh
-  cd my-project
+  cd 1st-Capstone-project-MexicanFood
   gem install
 ```
---->
-
 ### Usage
-
 To run the project, execute the following command:
-
-<!--
-Example command:
-
 ```sh
-  rails server
+ rails server
 ```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -209,28 +122,17 @@ Example:
 > Mention all of the collaborators of this project.
 
 👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
+- GitHub: [@AdrianScharff](https://github.com/AdrianScharff)
+- Twitter: [@CryptogodAdrian](https://twitter.com/CryptogodAdrian)
+- LinkedIn: [Adrian Juarez](https://www.linkedin.com/in/adrián-juárez-17a51b263)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **React usage**
+- [ ] **Bootstrap usage**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -240,7 +142,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/AdrianScharff/1st-Capstone-project-MexicanFood/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -248,9 +150,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project rate a star⭐
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -258,25 +158,23 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+I would like to thank my mentors and fellow students who helped me when I needed going through this project building.
 
-I would like to thank...
+I also give thanks to Cindy Shin, the author of this pages's orginal design, for having great creativity and originality building this model
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **Is this project inviting people to a real event?**
 
-- **[Question_1]**
+  - No, it's just an hypothetic mexican food event
 
-  - [Answer_1]
+- **Which template did you use to build this website?**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - The 'Capstone project - Conference page' Template from Figma
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -284,8 +182,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

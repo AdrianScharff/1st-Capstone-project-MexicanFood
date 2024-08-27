@@ -42,10 +42,6 @@ body {
   text-decoration: none;
 }
 
-.hamburgerMenu.active {
-  position: fixed;
-}
-
 .hamburgerMenu.active .bar1 {
   transform: rotate(45deg) translate(0.3rem, 0.65rem);
   background-color: #df3623;
@@ -75,7 +71,7 @@ body {
 }
 
 .hamburgerMenu {
-  position: absolute;
+  position: fixed;
   width: 2.3rem;
   height: 2.3rem;
   display: flex;
@@ -498,21 +494,6 @@ footer {
   .sponsorDesk {
     display: block;
   }
-
-  /* #menuOptions.active {
-    display: flex;
-    flex-direction: row;
-    gap: 10%;
-    position: static;
-    padding-left: 0;
-    padding-top: 0;
-    background-color: white;
-    backdrop-filter: none;
-    font-size: 0.8rem;
-    height: auto;
-    width: 51%;
-    z-index: 0;
-  } */
 
   #menuOptions.active a {
     color: #272a31;

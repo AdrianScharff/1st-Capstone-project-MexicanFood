@@ -10,7 +10,7 @@ hamburger.addEventListener('click', () => {
 const menuOptionsLinks = document.querySelectorAll('.menuOptionsLinks');
 menuOptionsLinks.forEach((link) => {
   link.addEventListener('click', () => {
-    menu.classList.toggle('active');
-    hamburger.classList.toggle('active');
+    menu.classList.remove('active');
+    hamburger.classList.remove('active');
   });
 });

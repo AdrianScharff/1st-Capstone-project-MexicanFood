@@ -41,11 +41,6 @@ body {
   text-decoration: none;
 }
 
-.hamburgerMenu.active {
-  position: fixed;
-  z-index: 1000;
-}
-
 .hamburgerMenu.active .bar1 {
   transform: rotate(45deg) translate(0.3rem, 0.65rem);
   background-color: #df3623;
@@ -76,12 +71,14 @@ body {
 }
 
 .hamburgerMenu {
+  position: fixed;
   width: 2.3rem;
   height: 2.3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   padding: 4% 0 0 6%;
+  z-index: 110;
 }
 
 .bar {
